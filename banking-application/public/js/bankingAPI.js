@@ -5,18 +5,14 @@
  * Sample code allowing to understand how to code API in Javascript
  * 
  */
-
 //The API Developer Portal URL
 var url_api_devloper_portal = "https://api.us.apiconnect.ibmcloud.com/spbodieusibmcom-prod/developer-contest/mplbank";
 
-
 // Your API ClientID
-var IBM_CLIENT_ID = "YOUR_CLIENT_ID_HERE";
-
+var IBM_CLIENT_ID = "cc8e8d89-b881-419b-85c7-78e84706cf33";
 
 // Your API ClientSecret
-var IBM_CLIENT_SECRET = "YOUR_CLIENT_SECRET_HERE";
-
+var IBM_CLIENT_SECRET = "W4wV8dT3vW5uY2gW1pQ0uO8uH5fD8vM0tE7vT2bX1kR0wK4aW6";
 
 /*
  * JQUERY ready
@@ -29,7 +25,7 @@ $(document).ready(function() {
 	// Banking Account API
 	$("#btnBalanceInquiry").click(balanceInquiry);
 	$("#btnTransactionsInquiry").click(transactionsInquiry);
-	$("#btnAccountDetail").click(accountDetail);
+    $("#btnAccountDetail").click(accountDetail);
 
 });
 
@@ -114,8 +110,6 @@ function accountDetail() {
 	doGet(path, pathParameter);
 
 }
-
-
 /*
  * Miscellaneous function
  */
