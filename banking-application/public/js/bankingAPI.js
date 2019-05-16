@@ -9,10 +9,10 @@
 var url_api_devloper_portal = "https://api.us.apiconnect.ibmcloud.com/spbodieusibmcom-prod/developer-contest/mplbank";
 
 // Your API ClientID
-var IBM_CLIENT_ID = "fec1a377-6b24-4caa-b21f-21445afda282";
+var IBM_CLIENT_ID = "c6743a7c-f367-4f86-9301-21eeb46e0762";
 
 // Your API ClientSecret
-var IBM_CLIENT_SECRET = "Q8mI1uF5fY6bD1mK0xC7uP5hB6lF6oY7kO8pS0yI7bT4yI6eH8";
+var IBM_CLIENT_SECRET = "nW3pK2oS7dV6hX0aG2tC7vO4oM7jJ2nF5cI3yE5sT0uK5oF7tP";
 
 /*
  * JQUERY ready
